@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Pseudo Selectors </title>
+</head>
+<style>
+	header li
+	{
+		list-style:none;
+	}
+ a:link,a:visited
+ {
+ 	background-color:grey;
+ 	color:lightblue;
+ 	border:4px solid lightblue;
+ 	display:block;
+ 	width:250px;
+ 	height:30px;
+ 	margin-bottom:2px;
+ 	text-align:center;
+ 	font-size:25px;
+ 	opacity:0.65;
+
+ }
+ a:hover,a:active
+ {
+ 	background-color:blue;
+ 	color:grey;
+ }
+section div:nth-child(odd)
+		{
+           background-color:grey;
+           color:lightblue;
+          }	
+ section div:nth-child(4)
+		{
+           background-color:lightpink;
+           color:grey;
+          }	
+
+
+</style>
+<body>
+<header>
+	<ul>
+		<li><a href="https://www.facebook.com/">Facebook</a></li>
+		<li><a href="https://www.instagram.com/">Instagram</a></li>
+		<li><a href="https://twitter.com/">Twitter</a></li>
+	</ul>
+</header>
+<section>
+	<div>Div 1</div>
+	<div>Div 2</div>
+	<div>Div 3</div>
+	<div>Div 4</div>
+	<div>Div 5</div>
+	<div>Div 6</div>
+	<div>Div 7</div>
+	<div>Div 8</div>
+	<div>Div 9</div>
+	<div>Div 10</div>
+	<div>Div 11</div>
+	<div>Div 12</div>
+	<div>Div 13</div>
+	<div>Div 14</div>
+	<div>Div 15</div>
+	<div>Div 16</div>
+</section>
+</body>
+</html>
