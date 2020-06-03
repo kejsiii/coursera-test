@@ -1,0 +1,13 @@
+body
+{
+	background-color:#bf434f;
+	color:#fff;
+	font-size:18px;
+	font-family: 'Bentham', serif;
+}
+#header-nav
+{
+	background-color:rgb(#703411);
+	border-radius:0;
+	border:0;
+}
