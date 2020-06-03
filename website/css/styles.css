@@ -5,9 +5,19 @@ body
 	font-size:18px;
 	font-family: 'Bentham', serif;
 }
+
 #header-nav
 {
-	background-color:rgb(#703411);
-	border-radius:0;
+	background-color:orange;
 	border:0;
+	border-radius:0;
+	height:150px;
+}
+
+#logo-img
+{
+	background-image: url("logo.jpg") no-repeat;
+	width:150;
+	height:150;
+	margin:10px 15px 10px 0px;
 }
