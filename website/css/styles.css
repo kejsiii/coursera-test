@@ -1,14 +1,14 @@
 body
 {
-	background-color:white;
-	color:black;
+	background-color:#5a6f7d;
+	color:white;
 	font-size:18px;
 	font-family: 'Bentham', serif;
 }
 
-.navbar navbar-default
+#header-nav
 {
-	background-color:rgb(#2e29a6);
+	background-color:#2b2873;
 	border:0;
 	border-radius:0;
 	height:150px;
@@ -16,47 +16,121 @@ body
 
 #logo-img
 {
-	background-image:url("logo2.png");
-	width:170px;
-	height:170px;
-	margin:3px 5px 13px 0px;
-}
-#container
-{
-	width:900px;
-	height: 140px;
+	background-image:url("logo2.png") ;
+	background-image:no-repeat;
+	width:100px;
+	height:100px;
+	margin:3px 3px 3px 0px;
+	border-radius:15px;
+	float:right;
 }
 .navbar-header
 {
 	float:left;
 }
+
+.container
+{
+	width:1300px;
+	height: 140px;
+
+}
+
 h6
 {
 	text-align: center;
+	float:left;
 }
 .navbar-brand
 {
-	padding-top:25px;
+	padding-top:20px;
+	float:left;
 }
 .navbar-brand h1
 {
-	color:grey;
+	color:white;
 	font-size:1.5em;
 	text-transform:uppercase;
 	font-weight:bold;
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 0;
 	margin-bottom: 0;
-	line-height: .75
+	
+
 }
+
 .navbar-brand a:hover, .navbar-brand a:focus
 {
 	text-decoration: none;
+	
 }
 .navbar-brand p
 {
-	color:#000;
+	color:white;
 	text-transform:uppercase;
 	font-size: .7em;
 	margin-top:15px;
+
+}
+.navbar-nav
+{
+	margin-top: 10px;
+	float:left;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+{
+	
+	width:700px;
+	float:right;
+	border:2px solid #08304a;
+	margin-top:70px;
+	color:#02243b;
+	background-color:#2b2873; 
+	opacity:0.65;
+	border-radius:9px;
+
+}
+@media (min-width:992px) and max (max-width:1199px)
+{
+	#logo-img
+	{
+		background-image:url("logo2.png");
+		width:100px;
+		height:100px;
+		margin: 2px 2px 2px 0px;
+	}
+}
+@media (min-width:768px) and (max-width:991px)
+{
+	.navbar-brand
+	{
+		padding-top:10px;
+		height:80px;
+	}
+	.navbar-brand h1
+	{
+      padding-top:10px;
+      font-size:5vw;
+	}
+	.navbar-brand p
+	{
+		text-transform:uppercase;
+		font-size:.6em;
+		margin-top:12px
+	}
+	.navbar-brand p img
+	{
+		height:20px;
+	}
+}
+@media (min-width:1200px)
+{
+	.jumbotron
+	{
+		background:url("bigsize.jpg");
+		height:657px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border:2px solid #3F0C1F;
+	    background:no-repeat;
+	}
 }
