@@ -90,6 +90,32 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light
 	border-radius:9px;
 
 }
+.description
+{
+	background-color: white;
+	border-radius:7px;
+	border:1px solid blue;
+	color:black;
+	padding:10px;
+	margin:10px;
+}
+.panel-footer
+{
+   padding-left:10px;
+   padding-right:10px;
+   margin:10px;
+}
+#address li
+{
+	font-size:16px;
+}
+#table1
+{
+	width:1200px;
+	height:1200px;
+	border:10px solid black;
+}
+}
 @media (min-width:992px) and max (max-width:1199px)
 {
 	#logo-img
@@ -122,15 +148,39 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light
 	{
 		height:20px;
 	}
+
+  .jumbotron {
+    background: url('../css/992.jpg') no-repeat;
+    height: 558px;
+  }	
 }
 @media (min-width:1200px)
 {
 	.jumbotron
 	{
-		background:url("bigsize.jpg");
-		height:657px;
+		background:url('../css/bigsize.jpg');
+		height:400px;
+		width:700px;
 		box-shadow: 0 0 50px #3F0C1F;
 		border:2px solid #3F0C1F;
-	    background:no-repeat;
+		background-repeat: no-repeat;
 	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+ .jumbotron {
+    background: url('../css/content.jpg') no-repeat;
+    height: 432px;
+  }
+  
+}
+@media (max-width:768px)
+{
+	.jumbotron
+	{
+		background:url('../css/SmallSize.jpg') no-repeat;
+ 
+}
 }
