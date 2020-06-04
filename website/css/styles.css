@@ -1,14 +1,14 @@
 body
 {
-	background-color:#bf434f;
+	background-color:white;
 	color:black;
 	font-size:18px;
 	font-family: 'Bentham', serif;
 }
 
-#header-nav
+.navbar navbar-default
 {
-	background-color:rgb(#f0f2f7);
+	background-color:rgb(#2e29a6);
 	border:0;
 	border-radius:0;
 	height:150px;
@@ -17,8 +17,8 @@ body
 #logo-img
 {
 	background-image:url("logo2.png");
-	width:130px;
-	height:130px;
+	width:170px;
+	height:170px;
 	margin:3px 5px 13px 0px;
 }
 #container
@@ -33,10 +33,6 @@ body
 h6
 {
 	text-align: center;
-}
-#headerparag
-{
-	color:blue;
 }
 .navbar-brand
 {
