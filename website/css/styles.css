@@ -1,14 +1,14 @@
 body
 {
 	background-color:#bf434f;
-	color:#fff;
+	color:black;
 	font-size:18px;
 	font-family: 'Bentham', serif;
 }
 
 #header-nav
 {
-	background-color:orange;
+	background-color:rgb(#f0f2f7);
 	border:0;
 	border-radius:0;
 	height:150px;
@@ -16,5 +16,51 @@ body
 
 #logo-img
 {
-	background-image:url('final.jpg');
+	background-image:url("logo2.png");
+	width:130px;
+	height:130px;
+	margin:3px 5px 13px 0px;
+}
+#container
+{
+	width:900px;
+	height: 140px;
+}
+.navbar-header
+{
+	float:left;
+}
+h6
+{
+	text-align: center;
+}
+#headerparag
+{
+	color:blue;
+}
+.navbar-brand
+{
+	padding-top:25px;
+}
+.navbar-brand h1
+{
+	color:grey;
+	font-size:1.5em;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75
+}
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+	text-decoration: none;
+}
+.navbar-brand p
+{
+	color:#000;
+	text-transform:uppercase;
+	font-size: .7em;
+	margin-top:15px;
 }
