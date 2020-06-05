@@ -111,9 +111,54 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light
 }
 #table1
 {
-	width:1200px;
-	height:1200px;
-	border:10px solid black;
+	width:1300px;
+	height:700px;
+	border:3px solid black;
+	font-size:15px;
+	padding-right:20px;
+	margin:20px;
+	table-layout: padding:30px;
+}
+#p2
+{
+	border-radius:1px solid blue;
+	background-color:#4f449c;
+	color:black;
+}
+#table2
+{
+	border-collapse:collapse;
+	border:1px solid black;
+}
+th
+{
+	width:30px;
+	line-height:30px;
+	font-size:30px;
+}
+th,td
+{
+	 border:1px solid black;
+	 color:white;
+}
+.pse
+{
+	font-size:30px;
+	text-decoration:underline;
+	text-shadow:9px;
+}
+#map-tile
+{
+	height: 250px;
+	width:100%;
+	margin-bottom:15px;
+	position:relative;
+	border:2px solid blue;
+	overflow:hidden;
+}
+#map-tiles div
+{
+	
 }
 }
 @media (min-width:992px) and max (max-width:1199px)
